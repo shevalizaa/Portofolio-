@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['angkot-mikrolet', 'bus', 'mobil', 'motor', 'pick-up-box', 'truk gandar']
+
+roboflow:
+  workspace: proyek-akhir
+  project: pa_cv
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/proyek-akhir/pa_cv/dataset/9
